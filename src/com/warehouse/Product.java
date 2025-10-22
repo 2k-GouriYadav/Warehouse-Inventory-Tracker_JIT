@@ -7,6 +7,7 @@ public class Product {
 	private int quantity;
 	private final int reorderThreshold;
 	
+	
 	public Product(String id,String name,int reorderThreshold) {
 		this.id=id;
 		this.name=name;
@@ -48,10 +49,7 @@ public class Product {
 		}
 		
 	}
-	@Override
-	public String toString() {
-		return name+"[Quantity : "+quantity+ "]";
-	}
+	
 
 	
 	
